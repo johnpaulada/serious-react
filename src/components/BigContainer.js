@@ -10,7 +10,7 @@ const BigContainer = styled.div`
   background-position: center;
   background-size: cover;
   background: ${props =>
-    "background" in props ? `url(${props.background})` : "blue"};
+    "background" in props ? `url(${props.background})` : "red"};
 `;
 
 export default BigContainer;

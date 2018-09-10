@@ -6,6 +6,8 @@ import MainSubtitle from "./MainSubtitle";
 import Card from "./Card";
 import BottomGradient from "./BottomGradient";
 import RouterLink from "./RouterLink";
+import AnimateTransitionRouter from "./AnimateTransitionRouter";
+import MainMenu from "./MainMenu";
 
 export {
   LandingHeader,
@@ -15,5 +17,7 @@ export {
   BigContainer,
   BottomGradient,
   Card,
-  RouterLink
+  RouterLink,
+  AnimateTransitionRouter,
+  MainMenu
 };

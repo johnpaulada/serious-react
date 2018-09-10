@@ -32,9 +32,13 @@ export const CardTitle = styled.div`
   margin: 0;
   padding: 0;
   color: #fafafa;
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   font-weight: 900;
   font-size: 1.5em;
   letter-spacing: 1px;
   z-index: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 `;

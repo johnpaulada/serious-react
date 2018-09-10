@@ -1,32 +1,20 @@
 import React from "react";
-
 import { storiesOf } from "@storybook/react";
 // import { action } from "@storybook/addon-actions";
 // import { linkTo } from "@storybook/addon-links";
 
-import App from "../App";
-import Landing from "../pages/Landing";
-import {
-  LandingHeader,
-  BigContainer,
-  MainTitle,
-  MainSubtitle,
-  Card
-} from "../components";
+import { MainTitle, MainSubtitle } from "../components";
 
-// Images
-import landingBackground from "../components/LandingHeader/assets/landing-header-background.png";
+import App from "./App";
+import Landing from "./Landing";
+import Cards from "./Cards";
 
-storiesOf("App", module).add("Full App", () => <App />);
+[storiesOf]
+  .map(App)
+  .map(Landing)
+  .map(Cards);
 
 // Landing Page
-storiesOf("Landing Page").add("Full Landing Page", () => <Landing />);
-storiesOf("Landing Page/Header")
-  .add("Full Header Page", () => <LandingHeader />)
-  .add("Container With Background", () => (
-    <BigContainer background={landingBackground} />
-  ))
-  .add("Container Without Background", () => <BigContainer />);
 
 storiesOf("Header Type/Main Header")
   .add("Default Header", () => (
@@ -47,7 +35,3 @@ storiesOf("Header Type/Sub Header")
   .add("Sub Header With Color", () => (
     <MainSubtitle color="#333">Main Title</MainSubtitle>
   ));
-
-storiesOf("Cards").add("Default Card", () => {
-  return <Card />;
-});

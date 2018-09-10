@@ -8,6 +8,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-scripts": "1.1.5",
+    "react-snap": "^1.19.0",
     "react-spring": "^5.6.15",
     "side-effector": "^0.1.1",
     "styled-components": "^3.4.5"
@@ -18,7 +19,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "postbuild": "react-snap"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.10",

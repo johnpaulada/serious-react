@@ -9,7 +9,7 @@ class LandingHeader extends Component {
     return (
       <BigContainer background={headerBackground}>
         <MainTitle>Serious React</MainTitle>
-        <MainSubtitle>A GUIDE TO SERIOUS REACT</MainSubtitle>
+        <MainSubtitle>A GUIDE TO SERIOUS REACT DEVELOPMENT</MainSubtitle>
       </BigContainer>
     );
   }

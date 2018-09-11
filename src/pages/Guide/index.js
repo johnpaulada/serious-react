@@ -5,7 +5,6 @@ import Step from "./Step";
 import forestBackground from "./assets/forest.jpg";
 import snowBackground from "./assets/snow.jpg";
 
-const STEP_COUNT = 2;
 const steps = [
   {
     background: forestBackground,
@@ -16,8 +15,15 @@ const steps = [
     background: snowBackground,
     title: "Storybook",
     content: "Awesome content"
+  },
+  {
+    background: snowBackground,
+    title: "Automate Code Formatting",
+    content: "Awesome content"
   }
 ];
+
+const STEP_COUNT = steps.length;
 
 class Guide extends PureComponent {
   setParallaxRef = element => {

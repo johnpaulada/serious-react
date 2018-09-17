@@ -51,3 +51,14 @@
 
 - [ReasonReact](https://reasonml.github.io/reason-react/) - React using
   ReasonML, created by Jordan Walke, the guy who created React.
+
+## Serious React Checklist
+
+- [ ] Prototyping
+- [ ] Storybook
+- [ ] Strict Typing (Flow/TypeScript)
+- [ ] State Management (Redux/MobX)
+- [ ] Accessibility
+- [ ] Unit Testing
+- [ ] End-To-End Testing
+- [ ] Documentation

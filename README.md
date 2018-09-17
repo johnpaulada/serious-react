@@ -62,3 +62,4 @@
 - [ ] Unit Testing
 - [ ] End-To-End Testing
 - [ ] Documentation
+- [ ] Continuous Deployment
